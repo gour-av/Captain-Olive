@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodItems">
+    <TextView
+        android:id="@+id/str_meals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/str_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/str_meals"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/str_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/str_category"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/str_Instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/str_area"
+        android:layout_marginTop="30dp" />
+    <ImageView
+        android:id="@+id/strMeals_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/str_Instructions"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/str_tube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/strMeals_thumb"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
